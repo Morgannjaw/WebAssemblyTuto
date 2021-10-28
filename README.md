@@ -48,11 +48,11 @@ The main advantages of running WebAssembly outside the browser is that it provid
 
 ### Basic Example – Web assembly Using Rust.  
 
-For this tutorial we are going to use MacOS, Visual Studio Code ( or any text editor of your choice) and of course,  Rust. So we will need to install Rust from its official  [website](https://www.rust-lang.org/tools/install). I suggest using  VsCode as your text editor and you’ll install some tools on your machine that will allow you to compile and interpret WebAssembly modules. These tools include:
+For this tutorial we are going to use MacOS, Visual Studio Code ( or any text editor of your choice) and of course,  Rust. So we will need to install Rust from its [official website](https://www.rust-lang.org/tools/install). I suggest using  VsCode as your text editor and you’ll install some tools on your machine that will allow you to compile and interpret WebAssembly modules. These tools include:
 
 ####	WebAssembly Binary Toolkit (WABT)
 
-The WebAssembly Binary Toolkit (pronounced “wabbit”) is a general-purpose set of command-line tools you’ll use for building, examining, and troubleshooting WebAssembly modules. Whether you’re on Windows, Mac, or Linux. First thing you’re going to need to install is CMake.5 using [this link](https://tudat.tudelft.nl/installation/setupDevMacOs.html). Installing CMake varies widely across operating systems, so you’ll need to check the instructions specific to your platform. Come back and continue with the wabt installation once you’ve verified that CMake is up and running locally. Next, follow the instructions on the wabt GitHub repository README https://github.com/WebAssembly/wabt/blob/main/README.md to complete the installation.
+The WebAssembly Binary Toolkit (pronounced “wabbit”) is a general-purpose set of command-line tools you’ll use for building, examining, and troubleshooting WebAssembly modules. Whether you’re on Windows, Mac, or Linux. First thing you’re going to need to install is CMake.5 using [this link](https://tudat.tudelft.nl/installation/setupDevMacOs.html). Installing CMake varies widely across operating systems, so you’ll need to check the instructions specific to your platform. Come back and continue with the wabt installation once you’ve verified that CMake is up and running locally. Next, follow the instructions on the wabt [GitHub repository README](https://github.com/WebAssembly/wabt/blob/main/README.md) to complete the installation.
 
 #### Extensions in VSCode.
 -	```rust-analyzer```: for autocomplete and other great features.
@@ -193,8 +193,8 @@ The answer to your addition was 43
 ```
 And just like that, you’ve created a Rust console application that hosts a WebAssembly module
 
-#### References: 
+### References: 
 
-[^1]: Fullstack Labs. Luis Hernandez [What is WebAssembly And What is it Used for?](https://www.fullstacklabs.co/blog/what-is-webassembly)
-[^2]:	Eric Elliot, “What is web assembly?” [What is WebAssembly - The dawn of a new Era](https://medium.com/javascript-scene/what-is-webassembly-the-dawn-of-a-new-era-61256ec5a8f6) June 19 2015
-[^3]: Kevin Hoffman, “ Programming web assembly with Rust” Pragmatic Programmers 
+1. Fullstack Labs. Luis Hernandez [What is WebAssembly And What is it Used for?](https://www.fullstacklabs.co/blog/what-is-webassembly)
+2.	Eric Elliot, “What is web assembly?” [What is WebAssembly - The dawn of a new Era](https://medium.com/javascript-scene/what-is-webassembly-the-dawn-of-a-new-era-61256ec5a8f6) June 19 2015.
+3. Kevin Hoffman, “ Programming web assembly with Rust” Pragmatic Programmers.
