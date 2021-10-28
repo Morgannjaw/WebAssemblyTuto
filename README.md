@@ -197,4 +197,4 @@ And just like that, you’ve created a Rust console application that hosts a Web
 
 1. Fullstack Labs. Luis Hernandez [What is WebAssembly And What is it Used for?](https://www.fullstacklabs.co/blog/what-is-webassembly)
 2.	Eric Elliot, “What is web assembly?” [What is WebAssembly - The dawn of a new Era](https://medium.com/javascript-scene/what-is-webassembly-the-dawn-of-a-new-era-61256ec5a8f6) June 19 2015.
-3. Kevin Hoffman, “ Programming web assembly with Rust” Pragmatic Programmers.
+3. The PragKevin Hoffman, “ Programming WebAssembly with Rust”, March 5 2019.
